@@ -1,0 +1,11 @@
+
+What is the difference between UDP and TCP?
+
+There are set of information and rules that allows data to travel across a network. These information and rules are what we call internet protocols (IP). 
+
+TCP [Transmission Control Protocol] and UDP[User Datagram Protocol] are Inernet Protocols (IP) that allow us to send and receive data across the network.
+Primarily both do the same job but differ on how they do it. 
+
+TCP first establishes connection and makes sure the actors involved in transfer of data are in a state to commuiniate. 
+UDP instead sends the message in a hope that it will reach the destination. 
+
