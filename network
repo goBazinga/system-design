@@ -6,6 +6,16 @@ There are set of information and rules that allows data to travel across a netwo
 TCP [Transmission Control Protocol] and UDP[User Datagram Protocol] are Inernet Protocols (IP) that allow us to send and receive data across the network.
 Primarily both do the same job but differ on how they do it. 
 
-TCP first establishes connection and makes sure the actors involved in transfer of data are in a state to commuiniate. 
+TCP first establishes connection and makes sure the interacting involved in transfer of data are in a state to commuiniate. 
 UDP instead sends the message in a hope that it will reach the destination. 
+
+TCP requires a handshake to occur first and is hence it is more reliable than UDP. It SYN, SYN-ACK, ACK handshake mechanisms to achieve this.
+The connection is established in tree-way fashion. First it initates connection and acknowledges it. Second, it transfer the data packages and third it closes the connection.
+So you can classify TCP as a connection-oriented protocol. In addition to this, TCP arranges packets in order and makes error detection easier.
+For this reason, TCP is slower compared to UDP.
+
+
+
+
+
 
